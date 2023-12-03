@@ -1,0 +1,66 @@
+.content{
+    width: max-content; 
+    text-decoration: none;
+ }
+ 
+ .container1{
+     width: 700px;
+     border-radius: 5px;
+     height: 500px;
+     position: absolute;
+     left: 380px;
+     top: 180px;
+     background-image: linear-gradient(to bottom,#ffffff 50%,#c0ffff 90%); 
+     /* background-color: white; */
+     border:rgb(238, 57, 220) solid 2px;
+ }
+ .btnpassenger1{
+     width: 400px;
+     height: 40px;
+     position: absolute;
+     top: 130px;
+     left: 530px;
+     color: rgba(192, 17, 160, 0.764);
+     background-color:white;
+     /* border: none; */
+     border:rgb(238, 57, 220) solid 2px;
+     border-radius: 5px;
+     font-weight: 600;
+     font-size: 18px;
+     text-decoration: none;
+     
+ }
+ .btnpassenger1:hover{
+     background-color:white;
+     border: none;
+     /* border:rgb(238, 57, 220) solid; */
+     cursor:pointer;
+     
+ }
+ a.btnpass1{
+     text-decoration: none;
+     color: rgba(192, 17, 160, 0.764);
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 700;
+     word-spacing: 3px;
+ }
+ h2{
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     color: rgba(192, 17, 160, 0.764);
+ }
+ h3{
+     color: rgba(9, 9, 9, 0.764);
+     font-size: 21px;
+     font-weight:500;
+     position: relative;
+     top: 30px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     text-align: center;
+ }
+ .img1{
+     position: relative;
+     top:97px;
+     left: 95px;
+     height: 350px;
+     width: 500px;
+ }

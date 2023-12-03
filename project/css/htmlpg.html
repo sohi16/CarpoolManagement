@@ -1,0 +1,131 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='postride.css'>
+    <title>Carpool</title>
+</head>
+
+<body>
+    <div class="back-img">
+
+        <div class="content">
+
+
+            <form id="form1">
+                <div class="part part-1 active">
+                    <div class="form-group">
+                        <h2>Personal Details</h2><br>
+                        <h4>Enter name: </h4><input class="inputbox" type="text" id="txt1" name="txtname"><br><br>
+                        <h4>Enter contact number: </h4><input class="inputbox" type="text" id="txt2"
+                            name="txtnum"><br><br>
+                        <h4>Enter gender:</h4>
+                        <h4><input type="radio" name="rd1" class="radio" value="M"> Male
+                            &nbsp; &nbsp;<input type="radio" name="rd1" class="radio" value="F"> Female
+                            &nbsp;&nbsp;<input type="radio" name="rd1" class="radio" value="O"> Other</h4><br>
+                        <h4>Enter username: </h4>
+                        <input class="inputbox" type="text" id="txt4" name="txtuname"><br><br>
+                        <h4>Enter age: </h4><input class="inputbox" type="password" id="txt5" name="txtpass"><br><br>
+                        <h4>Upload license: </h4><input class="inputbox" type="file" id="txt5"
+                            name="txtlicense"><br><br>
+                        <h4>Upload photo: </h4><input class="inputbox" type="file" id="txt5" name="txtlicense"><br>
+                    </div>
+                    <div class="btn-box">
+                        <button id="next1" class="next-btn">Next</button>
+                    </div>
+                </div>
+             </form>
+
+            <form id="form2">
+                <div class="part part-2 active">
+                    <div class="form-group">
+                        <h2>Travel Details</h2><br>
+                        <h4>Enter name: </h4><input class="inputbox" type="text" id="txt1" name="txtname"><br><br>
+                        <h4>Enter contact number: </h4><input class="inputbox" type="text" id="txt2"
+                            name="txtnum"><br><br>
+                        <h4>Enter gender:</h4>
+                        <h4><input type="radio" name="rd1" class="radio" value="M"> Male
+                            &nbsp; &nbsp;<input type="radio" name="rd1" class="radio" value="F"> Female
+                            &nbsp;&nbsp;<input type="radio" name="rd1" class="radio" value="O"> Other</h4><br>
+                        <h4>Enter username: </h4>
+                        <input class="inputbox" type="text" id="txt4" name="txtuname"><br><br>
+                        <h4>Enter age: </h4><input class="inputbox" type="password" id="txt5" name="txtpass"><br><br>
+                        <h4>Upload license: </h4><input class="inputbox" type="file" id="txt5"
+                            name="txtlicense"><br><br>
+                        <h4>Upload photo: </h4><input class="inputbox" type="file" id="txt5" name="txtlicense"><br>
+                    </div>
+                    <div class="btn-box">
+                        <button class="back-btn" id="back1">Back</button>
+                        <button class="next-btn" id="next2">Next</button>
+                    </div>
+                </div>
+             </form>
+
+            <form id="form3">
+                <div class="part part-3 active">
+                    <div class="form-group">
+                        <h2>Car Details</h2><br>
+                        <h4>Enter name: </h4><input class="inputbox" type="text" id="txt1" name="txtname"><br><br>
+                        <h4>Enter contact number: </h4><input class="inputbox" type="text" id="txt2"
+                            name="txtnum"><br><br>
+                        <h4>Enter gender:</h4>
+                        <h4><input type="radio" name="rd1" class="radio" value="M"> Male
+                            &nbsp; &nbsp;<input type="radio" name="rd1" class="radio" value="F"> Female
+                            &nbsp;&nbsp;<input type="radio" name="rd1" class="radio" value="O"> Other</h4><br>
+                        <h4>Enter username: </h4>
+                        <input class="inputbox" type="d" id="txt4" name="txtuname"><br><br>
+                        <h4>Enter age: </h4><input class="inputbox" type="password" id="txt5" name="txtpass"><br><br>
+                        <h4>Upload license: </h4><input class="inputbox" type="file" id="txt5"
+                            name="txtlicense"><br><br>
+                        <h4>Upload photo: </h4><input class="inputbox" type="file" id="txt5" name="txtlicense"><br>
+                    </div>
+                    <div class="btn-box">
+                        <button class="back-btn" id="back2">Back</button>
+                        <button class="next-btn">Post</button>
+                    </div>
+                </div>
+                </form>
+
+            <div class="step">
+                <div id="progress"></div>
+                <div class="step-col"><small>Step 1 </small></div>
+                <div class="step-col"><small>Step 2 </small></div>
+                <div class="step-col"><small>Step 3 </small></div>
+            </div>
+            
+        </div>
+
+    </div>
+    <script>
+    const form1 = document.getElementById("form1");
+    const form2 = document.getElementById("form2");
+    const form3 = document.getElementById("form3");
+    const next1 = document.getElementById("next1");
+    const next2 = document.getElementById("next2");
+    const back1 = document.getElementById("back1");
+    const back2 = document.getElementById("back2");
+    next1.onclick() = function() {
+        form1.style.left = "-520px";
+        form2.style.left = "40px";
+    } 
+    /* const steps= Array.form(document.querySelectorAll("form.part"));
+    const nextbtn=document.querySelectorAll("form.next-btn");
+    const backbtn=document.querySelectorAll("form.back-btn");
+    const form=document.querySelectorAll("form");
+    nextbtn.forEach((button)=>{
+        button.addEventListener("click",()=>{
+            changeSteps("next");
+        });
+    });
+    backbtn.forEach((button)=>{
+        button.addEventListener("click",()=>{
+            changeSteps("back");
+        });
+    }); */
+    </script>
+</body>
+
+</html>

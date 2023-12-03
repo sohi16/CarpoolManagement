@@ -1,0 +1,65 @@
+.content{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    top:85px;  
+    border-radius: 10px;
+    margin-top: 0;
+    width: 1600px;
+    box-shadow: 5px 5px 5px rgb(243, 209, 249);
+    height: 650px;
+    /* background: linear-gradient(#bbfd98f5,white);     */
+    background-color: white;
+}
+h2{
+    margin-left: 40px;
+    font-size: 28px;
+    position: relative;
+    left: -20px;
+    top:10px;
+    text-align: center;
+    color: rgba(216, 20, 180, 0.764);
+}
+.tabledata{
+    border: 1px solid rgb(234, 154, 248);
+    border-spacing: 3px;
+    border-radius: 5px;
+    position: absolute;
+    top:50px;
+    left: 10px;
+    width:1400px;
+    height:auto;
+    font-size: 20px;
+}
+tr{
+    width: 250px;
+    height: 40px;
+    
+    border: solid 1px rgb(234, 154, 248);
+}
+td{
+    width: 250px;
+    /* height: 40px; */
+    
+    /* border: solid 1px rgb(234, 154, 248); */
+}
+.del-btn{
+    text-align: center;
+    width: 150px;
+    height: 35px;
+    background-color: rgb(255, 239, 251);
+    border: none;
+    color:rgba(198, 17, 164, 0.764);
+    /* background-color: rgb(250, 230, 253); */
+    border: none;
+    margin: 0 10px;
+    /* color:rgb(173, 23, 200); */
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Times New Roman';
+    cursor:pointer;  
+    text-decoration: none;
+    
+}

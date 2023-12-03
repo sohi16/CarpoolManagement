@@ -1,0 +1,94 @@
+.content{
+    position: absolute;
+    left: 500px;
+    bottom: 10px;
+    top: 100px;  
+    border-radius: 5px;
+    margin-top: 0;
+    width: 500px;
+    /* box-shadow: 10px 10px 10px rgb(243, 209, 249); */
+    height: 640px;
+    /* background: linear-gradient(#bbfd98f5,white);     */
+    background-color: white;
+}
+.form1
+{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+h2{
+    text-transform: uppercase;
+    margin-left: -20px;
+    font-size: 22px;
+    word-spacing: 5px;
+    text-align: center;
+    color: rgba(192, 17, 160, 0.764);
+}
+h4{
+    color: black;
+    font-weight:500;    
+    font-size: 20px;
+}
+.inputbox{
+    font-family:Georgia;
+    width: 450px;
+    height: 30px;
+    font-size: 17px;
+    color: black;
+    border: 0;
+    border-bottom:1px solid rgb(234, 154, 248);
+    outline: none;
+    background: transparent;
+}
+.radio{
+    color:rgb(173, 23, 200);
+    font-size: 20px;
+    height: 15px;
+    width: 20px;
+    margin-top: 5px;    
+    cursor: pointer;
+}
+.submit{
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    background-color: rgb(251, 233, 249);
+    border: none;
+    color:rgba(201, 16, 167, 0.764);
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Times New Roman';
+    cursor:pointer;    
+}
+.reset{
+    text-align: center;
+    width: 200px;
+    height: 45px;
+    background-color: rgb(251, 233, 249);
+    border: none;
+    color:rgba(201, 16, 167, 0.764);
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor:pointer;
+    position: absolute;
+    left: 270px;
+}
+.submit:hover,.reset:hover{
+    background-color:white;
+    border:rgb(238, 57, 220) solid;
+    
+}
+.errmsg{
+    
+    color: red;
+    font-size: 20px;
+}
+.loginlink
+{
+    color: rgba(192, 17, 160, 0.764);
+}

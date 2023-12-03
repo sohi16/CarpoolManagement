@@ -1,0 +1,225 @@
+.content{
+    position: absolute;
+    left: 50px;
+    bottom: 10px;
+    top:85px;  
+    border-radius: 10px;
+    margin-top: 0;
+    width: 1430px;
+    box-shadow: 5px 5px 5px rgb(243, 209, 249);
+    height: 720px;
+    /* background: linear-gradient(#bbfd98f5,white);     */
+    background-color: white;
+}
+.content2{
+    position: relative;
+    left: 10px;
+    top:300px;
+    border-radius: 10px;
+    margin-top: 0;
+    width: 1000px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.table{
+    position: absolute;
+    left: 40px;
+    top:530px;
+    background-color: white;
+    width: 600px;
+    border: 1px solid rgb(234, 154, 248);
+}
+.td{
+    color: rgb(238, 57, 220);
+    font-size: 20px;
+    border: 1px solid rgb(234, 154, 248);
+
+}
+#form1
+{
+    border-radius: 5px;
+    border: 2px solid rgb(247, 215, 252);
+    width: 450px;
+    height: 560px;
+    position: absolute;
+    left:25px;
+    top: 67px;
+}
+#form2{
+    border-radius: 5px;
+    border: 2px solid rgb(247, 215, 252);
+    width: 450px;
+    height: 560px;
+    position: absolute;
+    left:493px;
+    top: 67px;
+}
+#form3{
+    border-radius: 5px;
+    border: 2px solid rgb(247, 215, 252);
+    width: 450px;
+    position: absolute;
+    left:960px;
+    top: 67px;
+    height: 560px;
+}
+h2{
+    text-transform: uppercase;
+    margin-left: 40px;
+    font-size: 22px;
+    position: relative;
+    left: -20px;
+    text-align: center;
+    color: rgba(216, 20, 180, 0.764);
+}
+h4{
+    position: relative;
+    left: 10px;
+
+    color: black;
+    font-weight:500;    
+    font-size: 20px;
+}
+.title{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(255, 248, 253);
+    height: 50px;
+}
+h3{
+    vertical-align:baseline;
+    position: relative;
+    top:10px;
+    word-spacing: 4px;
+    font-size: 23px;
+    text-align: center;
+    color: rgba(216, 20, 180, 0.764);
+}
+.inputbox{
+    font-family:Georgia;
+    width: 430px;
+    height: 30px;
+    font-size: 17px;
+    color: black;
+    border: 0;
+    border-bottom:1px solid rgb(234, 154, 248);
+    outline: none;
+    background: transparent;
+    position: relative;
+    left: 10px;
+}
+.inputboxdt{
+    font-family:Georgia;
+    width: 210px;
+    height: 30px;
+    font-size: 17px;
+    color: black;
+    border: 0;
+    border-bottom:1px solid rgb(234, 154, 248);
+    outline: none;
+    background: transparent;
+    position: relative;
+    left: 10px;
+}
+.inputboxdttime{
+    font-family:Georgia;
+    width: 210px;
+    height: 30px;
+    font-size: 17px;
+    color: black;
+    border: 0;
+    border-bottom:1px solid rgb(234, 154, 248);
+    outline: none;
+    background: transparent;
+    position: absolute;
+    top: 156px;
+    left: 230px;
+}
+.radio{
+    color:rgb(173, 23, 200);
+    font-size: 20px;
+    height: 15px;
+    width: 20px;
+    margin-top: 5px;    
+    cursor: pointer;
+}
+.btn-box{
+    width: 100%;
+    margin: 15px 20px;
+    text-align: center;
+}
+.next-btn{
+    text-align: center;
+    width: 270px;
+    height: 45px;
+    background-color: rgb(255, 239, 251);
+    border: none;
+    color:rgba(198, 17, 164, 0.764);
+    /* background-color: rgb(250, 230, 253); */
+    border: none;
+    margin: 0 10px;
+    /* color:rgb(173, 23, 200); */
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Times New Roman';
+    cursor:pointer;  
+    position: relative;
+    left: -25px;  
+    top: 565px;
+}
+
+
+.next-btn:hover{
+    background-color:white;
+    border:rgb(238, 57, 220) solid;
+    
+}
+.back-btn:hover{
+    background-color:white;
+    border:rgb(238, 57, 220) solid;
+    
+}
+.errmsg{
+    
+    color: red;
+    font-size: 20px;
+}
+.loginlink
+{
+    color: rgb(173, 23, 200);
+}
+
+
+.city{
+    position: absolute;
+    top: 300px;
+    left: 10px;
+    width: 425px;
+    height: 30px;
+    font-size: 18px;
+    border:none;
+    border-bottom: 1px solid rgb(234, 154, 248);;
+}
+
+.city2{
+    position: relative;
+    top: 9px;
+    left: 12px;
+    width: 425px;
+    height: 30px;
+    font-size: 18px;
+    border:none;
+    border-bottom: 1px solid rgb(234, 154, 248);;
+}
+.dest{
+    position: relative;
+    top:10px;
+}
+a.sub{
+    text-decoration: none;
+    border: none;
+    color:rgba(198, 17, 164, 0.764);
+}
